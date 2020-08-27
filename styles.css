@@ -1,0 +1,75 @@
+body {
+  background: #489377;
+}
+
+.card {
+  padding: 20px 50px;
+  border: 0;
+  width: 600px;
+  height: 500px;
+  margin: 100px auto;
+  background-image: url("img/bicycle.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 350%;
+}
+
+.card .card-body {
+  flex: none;
+  border: 0;
+}
+
+.card .card-body .card-title {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.card .card-body .card-title .badge {
+  cursor: pointer;
+  float: right;
+  padding: 10px;
+  border: 1px solid #adaead;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+
+.card .card-body .card-title .badge:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.card .card-body .card-title .badge .fa-user-circle {
+  font-size: 20px;
+  color: #000;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.card-text.text-mute {
+  color: #adaead;
+}
+
+.list-group-item {
+  border: 0;
+  background: none;
+}
+
+.list-group-item .order__name {
+  font-size: 16px;
+  color: #4f504f;
+}
+
+.list-group-item .order__price {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.list-group-item.list-group-item__total {
+  text-transform: uppercase;
+}
+
+.list-group-item.list-group-item__total .order__name {
+  font-size: 18px;
+  font-weight: 700;
+}
